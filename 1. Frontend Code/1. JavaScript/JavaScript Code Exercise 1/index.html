@@ -1,0 +1,50 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript 刷题</title>
+</head>
+
+<body>
+    <h1>
+        JavaScript 刷题：1.数字字符串格式化
+    </h1>
+    <p>
+        题目描述：
+    </p>
+    <p>
+        用户 在输入框中 输入 <b>不带千分位逗号</b> 的数字。
+    </p>
+    <p>
+        然后输出结果要求：
+    </p>
+    <ol>
+      <li>整数部分 <b>带千分位逗号</b>，如 
+        <code>987654321</code> 转变成 <code>987,654,321</code>；
+      </li>
+      <li><b>保留 小数部分</b>，如
+        <code>1294512.12412</code> 转变成 <code>1,294,512.12412</code>；
+      </li>
+      <li><b>去掉</b> 输入的 <b>数字字符串前面</b> 可能会有 <b>无用的 0</b>，如
+        <code>0000123456789.99</code> 转变成 <code>123,456,789.99</code>；
+      </li>
+    </ol>
+  	<hr>
+  	
+     <form>
+       <label>输入数字：</label>
+       <input id="number-input" type="text" placeholder="请输入数字" required>
+       <br><br>
+       <button id="format-btn">转换</button>
+     </form>
+         <p>输出结果是：<span class="result-content" id="display-span"></span></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

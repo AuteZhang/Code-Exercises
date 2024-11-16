@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+  code {
+    background-color: #282c34;
+    color: #61dafb;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Fira Code", monospace;
+    font-size: 0.9em;
+    white-space: nowrap;
+  }
+  .result-content {
+    color: #007bff; /* 蓝色 */
+    font-weight: bold; /* 加粗 */
+  }
+}
+          
