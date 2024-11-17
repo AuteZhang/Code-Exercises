@@ -64,3 +64,6 @@ console.log(result); // 输出: "The price is $200 and $400."
 
 - `match`: The callback function **receives** the matched part **as** a parameter.
 - Dynamically generates a replacement value and returns the new value.
+
+## Related Code Address
+[JavaScript Code Exercise 1](https://github.com/AuteZhang/Code-Exercises/tree/b5a60a8b2539032ca3cb2ba5c5990a40f4905dcc/1.%20Frontend%20Code/1.%20JavaScript/JavaScript%20Code%20Exercise%201)
